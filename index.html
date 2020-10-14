@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/jquery-3.2.1.js"></script>
+  <script src="js/mobileMenu.js"></script>
+  <script src ="https://use.fontawesome.com/d1341f9b7a.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Economica:400,700" rel="stylesheet">
+  <title>JM</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+
+          <div class="main-nav">
+               <a id="home" href="#homeSection">Home</a>
+              <a id="about" href="#aboutSection">About</a>
+              <a id="skills" href="#skillsSection">Skills</a>
+              <a id="portfolio" href="#portfolioSection">Portfolio</a>
+              <a id="contact" href="#contactsSection">Contact</a>
+            </div>
+        </nav>
+
+    </header>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <div class="pic1" id="homeSection">
+    <div class="ptext">
+      <span class="border">
+        Hi! My name is Joseph
+    </br>
+    </br>
+        Calgary based WebDeveloper
+      </span>
+    </div>
+  </div>
+
+  <section class="section section-light" id="aboutSection">
+
+    <div class="photo">
+        <img src="images/me.jpg" alt="this is my professional photo" width="250px">
+    </div>
+    <div class="blurb">
+        <p>Who am I? Joseph Ma</p>
+        <p>Location: Calgary, AB, Canada</p>
+        <p>Education: SAIT Polytechnic - WebDeveloper</p>
+        <p>Interests: Car enthusiast, Computers and Video Games</p>
+        <p>I’m a newly graduated student from the SAIT Polytechnic Web Developer Program. I am a passionate individual with a track record for translating complex ideas into beautiful works of art. I’ve managed and motivated teams from my past career experiences. I’ve built and managed companies from the ground up. Don’t let my newly graduated status fool you; this is all part of my plan to conquer the world, one website at a time!</p>
+    </div>
+  </section>
+</br>
+  <div class="pic2" id="skillsSection">
+    <div class="ptext">
+      <span class="border trans">
+        Skills
+      </span>
+    </div>
+  </div>
+
+  <section class="section section-dark">
+    <h3>Timeline</h3>
+    <ol class="timeline">
+      <li class="active">2003 - 2016, self taught HTML and basic CSS</li>
+      <li class="active">2017 - Self learning on CodeAcademy </li>
+      <li class="active">2017 - Web Developer program at SAIT Polytechnic (Html, CSS, JavaScript, Git, SASS, PHP)</li>
+
+    </ol>
+  </section>
+
+  <div class="pic3" id="portfolioSection">
+    <div class="ptext">
+      <span class="border trans">
+        Portfolio
+      </span>
+    </div>
+  </div>
+
+  <section class="section section-dark">
+    <h2>Projects I've worked on</h2>
+    <a href="images/josephma.jpg"><img src="images/josephma.jpg" width="200" height="200"></a>
+    <a href="firstwebsite/index.html"><img src="images/assignmentone.jpg" width="200" height="200"></a>
+    <a href="thirdassignment/index.html"><img src="images/assignmentthree.jpg" width="200" height="200"></a>
+    <a href="microwave/microwave.html"><img src="images/microwave.jpg" width="200" height="200"></a>
+    <a href="calculator/calculator.html"><img src="images/calculator.jpg" width="200" height="200"></a>
+    <a href="visitmontana/index.php"><img src="images/visitmontana.jpg" width="200" height="200"></a>
+    <a href="images/shibleylogo.jpg"><img src="images/shibleylogo.jpg" width="200" height="200"></a>
+
+  </section>
+
+  <div class="pic4" id="contactsSection">
+    <div class="ptext">
+      <span class="border trans">
+        Contact
+      </span>
+    </div>
+  </div>
+
+  <section class="section section-dark">
+    <h2>Questions? or Comments? </h2>
+    <div class="wrapper">
+                <div class="contact-form">
+
+
+                <form name="contactform" method="post" action="form.php">
+                    <table>
+                        <tr>
+                            <td valign="top">
+                                <label for="first_name">First Name *</label>
+                            </td>
+                            <td valign="top">
+                                <input type="text" name="first_name" maxlength="50" size="30">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td valign="top">
+                                <label for="last_name">Last Name *</label>
+                            </td>
+                            <td valign="top">
+                                <input type="text" name="last_name" maxlength="50" size="30">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td valign="top">
+                                <label for="email">Email Address *</label>
+                            </td>
+                            <td valign="top">
+                                <input type="text" name="email" maxlength="80" size="30">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td valign="top">
+                                <label for="telephone">Telephone Number</label>
+                            </td>
+                            <td valign="top">
+                                <input type="text" name="telephone" maxlength="30" size="30">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td valign="top">
+                                <label for="comments">Comments *</label>
+                            </td>
+                            <td valign="top">
+                                <textarea name="comments" maxlength="1000" cols="100" rows="30"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="text-align:center">
+                                <input type="submit" value="Submit">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+                </div>
+            </div>
+
+
+  </section>
+
+  <div class="pic5">
+    <div class="ptext">
+      <span class="border">
+        Thanks for coming!
+      </span>
+    </div>
+  </div>
+</body>
+<footer>
+    <div class="box">
+          <ul>
+            <li><a href="https://www.facebook.com/jsph.ma"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.twitter.com/iamjsph"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.instagram.com/iamjsphma"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-github-alt" aria-hidden="true"></i></a></li>
+            <li><a href="policy.html">Privacy Policy</i></a></li>
+        </div>
+</footer>
+</html>
